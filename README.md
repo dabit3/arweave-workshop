@@ -234,8 +234,8 @@ export default function Profile() {
 
   // if the user has not initialized bundlr, allow them to
   if (!bundlrInstance) {
-   return  (
-     <div>
+    return  (
+      <div>
         <div className={selectContainerStyle} >
           <Select
             onChange={({ value }) => setCurrency(value)}
@@ -246,10 +246,10 @@ export default function Profile() {
           />
           <p>Currency: {currency}</p>
         </div>
-     <div className={containerStyle}>
-       <button className={wideButtonStyle} onClick={initialiseBundlr}>Connect Wallet</button>
-     </div>
-     </div>
+        <div className={containerStyle}>
+          <button className={wideButtonStyle} onClick={initialiseBundlr}>Connect Wallet</button>
+        </div>
+      </div>
     )
   }
 
@@ -400,7 +400,7 @@ export default function Profile() {
     }
   }
 
-    async function checkUploadCost(bytes) {
+  async function checkUploadCost(bytes) {
     if (bytes) {
       const cost = await bundlrInstance.getPrice(bytes)
       setFileCost(utils.formatEther(cost.toString()))
@@ -440,16 +440,16 @@ export default function Profile() {
   if (!bundlrInstance) {
    return  (
      <div>
-        <div className={selectContainerStyle} >
-          <Select
-            onChange={({ value }) => setCurrency(value)}
-            options={currencyOptions}
-            defaultValue={{ value: currency, label: currency }}
-            classNamePrefix="select"
-            instanceId="currency"
-          />
-          <p>Currency: {currency}</p>
-        </div>
+       <div className={selectContainerStyle} >
+         <Select
+           onChange={({ value }) => setCurrency(value)}
+           options={currencyOptions}
+           defaultValue={{ value: currency, label: currency }}
+           classNamePrefix="select"
+           instanceId="currency"
+         />
+         <p>Currency: {currency}</p>
+       </div>
      <div className={containerStyle}>
        <button className={wideButtonStyle} onClick={initialiseBundlr}>Connect Wallet</button>
      </div>
@@ -457,7 +457,7 @@ export default function Profile() {
     )
   }
 
-
+  {/* most of this UI is also new */}
   return (
     <div>
       <h3 className={balanceStyle}>💰 Balance {Math.round(balance * 100) / 100}</h3>
@@ -487,7 +487,7 @@ export default function Profile() {
           URI && (
             <div>
                <p className={linkStyle} >
-                <a href={URI}>{URI}</a>
+                <a target="_blank" rel="noopener noreferrer" href={URI}>{URI}</a>
                </p>
                <div className={formStyle}>
                  <p className={labelStyle}>Title</p>
