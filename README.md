@@ -777,4 +777,8 @@ Congratulations, you've just built a full stack decentralized video app! 🚀�
 
 ### Next steps
 
-Consider deploying your entire app to Arweave. You can do this manually, or use tools like [SpheronHQ](https://spheron.network/) to make it easier with things like DNS support.
+💡 Consider deploying your entire app to Arweave. You can do this manually, or use tools like [SpheronHQ](https://spheron.network/) to make it easier with things like DNS support.
+
+💡 Consider adding filtering by tags, enabling users to add tags and then filter them based on a topic or tag. See [this repo](https://github.com/dabit3/perma) for a reference
+
+💡 Consider implementing a social graph with [Lens Protocol](https://lens.xyz/)
