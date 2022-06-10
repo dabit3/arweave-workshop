@@ -12,6 +12,8 @@ I recommend using either [NVM](https://github.com/nvm-sh/nvm) or [FNM](https://g
 
 2. Matic, Arbitrum, or Avalanche tokens
 
+If you need tokens, request them in [this](https://t.me/+yVIQiGRRkIU5Yzlh) telegram channel.
+
 3. Metamask installed as a browser extension
 
 4. Fund your Budlr wallet [here](https://demo.bundlr.network/) with around $1.00 of your preferred currency.
@@ -773,3 +775,6 @@ In this file we've:
 
 Congratulations, you've just built a full stack decentralized video app! 🚀🚀🚀
 
+### Next steps
+
+Consider deploying your entire app to Arweave. You can do this manually, or use tools like [SpheronHQ](https://spheron.network/) to make it easier with things like DNS support.
