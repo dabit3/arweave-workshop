@@ -12,8 +12,6 @@ I recommend using either [NVM](https://github.com/nvm-sh/nvm) or [FNM](https://g
 
 2. Matic, Arbitrum, or Avalanche tokens
 
-If you need tokens, request them in [this](https://t.me/+yVIQiGRRkIU5Yzlh) telegram channel.
-
 3. Metamask installed as a browser extension
 
 4. Fund your Budlr wallet [here](https://demo.bundlr.network/) with around $1.00 of your preferred currency.
