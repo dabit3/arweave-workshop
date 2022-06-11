@@ -1,6 +1,6 @@
 ## Full Stack Arweave Workshop
 
-Building a decentralized video sharing app with [Arweave](https://www.google.com/search?q=arweave&oq=arweave+&aqs=chrome..69i57j69i59j46i131i199i433i465i512j69i60l5.6621j0j4&sourceid=chrome&ie=UTF-8), [Bundlr](https://docs.bundlr.network/), and [Next.js](https://nextjs.org/).
+Building a decentralized video sharing app with [Arweave](https://www.google.com/search?q=arweave&oq=arweave+&aqs=chrome..69i57j69i59j46i131i199i433i465i512j69i60l5.6621j0j4&sourceid=chrome&ie=UTF-8), [Bundlr](https://docs.bundlr.network/), GraphQL, and [Next.js](https://nextjs.org/).
 
 ![BUILDING FULLY DECENTRALIZED FULL STACK APPLICATIONS WITH ARWEAVE AND NEXT.JS](header.jpg)
 
