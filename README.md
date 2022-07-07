@@ -773,9 +773,31 @@ In this file we've:
 
 Congratulations, you've just built a full stack decentralized video app! 🚀🚀🚀
 
+### Exporting
+
+To deploy your application to the permaweb, you need to export it as HTML / a single page app.
+
+To do this, add the following to your `scripts` in __package.json__:
+
+```json
+"export": "next build && next export"
+```
+
+Next, run the export command to export your app:
+
+```sh
+npm run export
+```
+
 ### Next steps
 
-💡 Consider deploying your entire app to Arweave. You can do this manually, or use tools like [SpheronHQ](https://spheron.network/) to make it easier with things like DNS support.
+💡 Consider deploying your entire app to Arweave. You can do this manually with [arkb](https://github.com/textury/arkb), or use tools like [SpheronHQ](https://spheron.network/) to make it easier with things like DNS support.
+
+You can deploy with `arkb` by using the `use-bundler` flag:
+
+```sh
+arkb deploy . --wallet ../wallet --use-bundler http://bundler.arweave.net:10000
+```
 
 💡 Consider adding filtering by tags, enabling users to add tags and then filter them based on a topic or tag. See [this repo](https://github.com/dabit3/perma) for a reference
 
